@@ -1,0 +1,16 @@
+# YOLOv8 Violence Detection Dataset Configuration
+# Reference: Roboflow Violence Dataset (https://universe.roboflow.com/shah-xxxqs/violence-3h8pw)
+# Total Images: 2,834 (Train: 1,969 | Val: 575 | Test: 290)
+
+path: ./datasets/violence_dataset
+train: images/train
+val: images/val
+test: images/test
+
+# Number of classes
+nc: 2
+
+# Class names
+names:
+  0: Non-Violence
+  1: Violence

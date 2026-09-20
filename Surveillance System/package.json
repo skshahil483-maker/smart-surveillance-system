@@ -1,0 +1,14 @@
+{
+  "name": "surveillance-system-root",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Smart Surveillance & Suspicious Activity Detection System",
+  "scripts": {
+    "dev": "npm run dev --prefix frontend",
+    "start": "python start.py",
+    "backend": "python backend/app/main.py",
+    "frontend": "npm run dev --prefix frontend",
+    "build": "npm run build --prefix frontend",
+    "preview": "npm run preview --prefix frontend"
+  }
+}
